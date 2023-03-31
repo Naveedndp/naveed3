@@ -30,7 +30,7 @@ except ModuleNotFoundError:
 
 from urllib.request import Request, urlopen
 import os, requests, re,platform, sys, random, subprocess, threading, itertools,base64,uuid,zlib,re,json,uuid,subprocess,shutil,webbrowser,time,json,sys,random,datetime,time,re,subprocess,platform,string,json,time,re,random,sys,string,uuid
-from concurrent.futures import ThreadPoolExecutor as sarfrazNAVEED
+from concurrent.futures import ThreadPoolExecutor as NVEED NAVEED
 from string import * 
 from random import randint
 from time import sleep as slp
@@ -87,7 +87,7 @@ logo =                                          """
                                    
 \033[1;37m------------------------------------------------
 \033[1;37m Owner   :            NAVEED_AHMED
-\033[1;37m Facebook:         NAVEED_AHMED
+\033[1;37m Facebook:             NAVEED_AHMED
 \033[1;37m Github  :            NAVEED-AHMEED
 \033[1;37m Version :            0.1
 \033[1;37m------------------------------------------------ """
@@ -106,7 +106,7 @@ def result(OKs,cps):
         input("Press enter to back NAVEED Menu ")
         exit()
 
-def sarfraz():   
+def NVEED ():   
     os.system('clear')
     print(logo)
     print(f'[1] File Crack')
@@ -141,7 +141,7 @@ def sarfraz():
     elif select =='9':
        cutter()
     elif select =='W':
-        os.system('xdg-open  https://chat.whatsapp.com/BsmPUlhkFSHDovfj6AcQzn')
+        os.system('xdg-open https://chat.whatsapp.com/BsmPUlhkFSHDovfj6AcQzn')
         pass
     elif select =='F':
         os.system('xdg-open https://www.facebook.com/profile.php?id=100053467634716')
@@ -173,7 +173,7 @@ def method_crack():
     #    methods.append('methodD')
    #     main_crack().crack(id)
     elif option =='0':
-        sarfraz()
+        NVEED ()
     else:
       print('\n Select Valid Option ...')
       time.sleep(2)
@@ -457,7 +457,7 @@ class main_crack():
             print(f'{S} Total IDs : %s ' % len(self.id))
             print(f'{S} Cracking Started...')
             print(47*"-")
-            with sarfrazNAVEED(max_workers=30) as NAVEEDworld:
+            with NVEED NAVEED(max_workers=30) as NAVEEDworld:
                 for zsb in self.id:
                    try:
                        uid, name = zsb.split('|')
@@ -655,14 +655,14 @@ def cutter():
     print("Enter File Path / File Location \n")
     NAVEED = input('Put File Name :')
     print(" ")
-    sarfraz = input('Saving Put File Name :')
-    os.system('touch ' +sarfraz)
-    os.system('sort -r '+NAVEED+' | uniq > '+sarfraz)
+    NVEED  = input('Saving Put File Name :')
+    os.system('touch ' +NVEED )
+    os.system('sort -r '+NAVEED+' | uniq > '+NVEED )
     os.system('clear')
     print(logo)
     print("Removed Successful From File : " + NAVEED )
     print(47*'-')
-    print("File Saved To :" + sarfraz )
+    print("File Saved To :" + NVEED  )
     print(47*'-')
     input(f"{S} Press Enter To Back NAVEED Menu ")
     menu
@@ -836,13 +836,13 @@ def cutter():
     print("Enter File Path / File Location \n")
     NAVEED = input('Put File Name:')
     print(" ")
-    sarfraz = input('Saving Put File Name:')
-    os.system('touch ' +sarfraz)
-    os.system('sort -r '+NAVEED+' | uniq > '+sarfraz)
+    NVEED  = input('Saving Put File Name:')
+    os.system('touch ' +NVEED )
+    os.system('sort -r '+NAVEED+' | uniq > '+NVEED )
     os.system('clear')
     print(logo)
     print("Removed Successful From File: " + NAVEED )
-    print("New File Saved:" + sarfraz )
+    print("New File Saved:" + NVEED  )
     print(47*'-')
     input(f"{S} Press Enter To Back NAVEED Menu ")
     NAVEED(allkey)       
@@ -852,4 +852,4 @@ def removef():
         NAVEED(allkey)            
  
 
-sarfraz()
+NVEED ()
